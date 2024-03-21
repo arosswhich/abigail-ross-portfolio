@@ -9,7 +9,7 @@ header {
 section {
     width: 75%;
     margin: auto;
-    border-top: 5px solid #000000;
+   
     border-bottom: 5px solid #000000;
     background-color: #ffd0ee;
 }
@@ -21,4 +21,13 @@ h1 {
 
 .content {
     padding: 40px;
+    
+}
+
+.portrait  {
+    width: 100px;
+    
+}
+.project {
+    width: 500px;
 }
