@@ -1,0 +1,24 @@
+header {
+    height: 100px;
+    width: auto;
+    text-align: center;
+    border-top: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    background-color: #ea76bf;
+}
+section {
+    width: 75%;
+    margin: auto;
+    border-top: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    background-color: #ffd0ee;
+}
+h1 {
+    text-align: center;
+    line-height: 2cm;
+    font-family: 'Times New Roman', Times, serif;   
+}
+
+.content {
+    padding: 40px;
+}
