@@ -1,27 +1,29 @@
+.navbar {
+    background-color: #cbf1bd;
+}
 header {
     font-size: larger;
     text-align: center;
     width: 75%;
+    padding-bottom: 20px;
     padding-top: 20px;
     margin:auto;
-    background-image: url();
+    background-image: url(/assets/images/circles.jpg);
     background-size: cover;
     background-position: center;
 }
-
 section {
     width: 75%;
     margin: auto;
     border-bottom: 5px solid #000000;
-    
     text-align: center;
 }
 #aboutMe {
     font-size: large;
-    padding-left: 150px;
+    padding-left: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
-    max-width: 80%; 
+    max-width: 100%; 
 }
 #myWork {
     padding: 40px;
@@ -30,11 +32,12 @@ section {
 #contactMe {
     padding: 40px;
     font-size: large;
+    background-image: url(/assets/images/contactbackground.jpg);
+    background-size: cover;
 }
 .portrait  {
-    width:200px;
+    width: 300px;
     float:left;
-    padding: 40px;
 }
 .payroll {
     width: 350px;
