@@ -3,36 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <title>Abigail Ross Whichello's Portfolio</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <span class="navbar-text">
+                Abigail Ross Whichello's Portfolio 
+              </span>
+            <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#aboutMe">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#myWork">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactMe">Contact Me</a>
+          </li>
+        </ul>
+        </div>
+    </nav>
    <header>
-        <h1>Abigail Ross Whichello's Portfolio</h1>
+        <h1>Welcome to my Portfolio!</h1>
     </header> 
 <section>
-    <div class="content">
-        <h2>About Me:</h2>
-        <h3>Hello, my name is Abigail. I am a mom of one human baby and three cat babies. I am from Tampa, Florida and an alumni of UCF. I have a bachelors in education and I am working towards becoming a full stack web developer. I have a passion for learning and I look forward to continuing to build upon my coding skills. I have been expanding my knowlege of HTML, CSS, and Javascript and I am excited to share my projects with you!</h3>
-        <img class="portrait" src="./assets/images/Photo1.jpg" alt="Photo of Me"/>
+    <div id="aboutMe">
+        <h2>About Me: </h2>
+        <h3><img class="portrait" src="./assets/images/Photo1.jpg" alt="Photo of Me"/>Hello, my name is Abigail. I am a mom of one human baby and three cat babies. I am from Tampa, Florida and an alumni of UCF. I have a bachelors in education and I am working towards becoming a full stack web developer. I have a passion for learning and I look forward to continuing to build upon my coding skills. I have been expanding my knowlege of HTML, CSS, and Javascript and I am excited to share my projects with you!</h3>
     </div>
 </section>
 <section>
-    <div class="content">
+    <div id="myWork">
         <h2>My Work:</h2>
-        <a href="https://arosswhich.github.io/my-blog/"><img class="project" src="./assets/images/blog.jpeg" alt=""/></a>
-        <a href="https://arosswhich.github.io/payroll-tracker/"><img class="project" src="./assets/images/payroll-tracker.jpg" alt=""/></a>
-        <img class="project" src="./assets/images/ReadMe.jpeg" alt=""/>
-        <img class="project" src="./assets/images/taskboard.jpeg" alt=""/>
+        <a href="https://arosswhich.github.io/payroll-tracker/"><img class="payroll" src="./assets/images/payroll-tracker.jpg" alt=""/></a>
+        <a href="https://arosswhich.github.io/my-blog/"><img class="blog" src="./assets/images/blog.jpeg" alt=""/></a>
+        <img class="readmeGen" src="./assets/images/ReadMe.jpeg" alt=""/>
+        <img class="taskboard" src="./assets/images/taskboard.jpeg" alt=""/>
     </div>
 </section>
 <section>
-    <div class="content">
+    <div id="contactMe">
         <h2>Contact Me: </h2>
         <h3>Email: <a href='mailto:arosswhich@gmail.com'>arosswhich@gmail.com</a></a></h3>
         <h3>Phone Number: +1(813)-335-7457 </h3>
-        <img class="project" src="" alt=""/>
     </div>
 </section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

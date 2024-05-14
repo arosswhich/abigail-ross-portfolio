@@ -1,33 +1,50 @@
 header {
-    height: 100px;
-    width: auto;
+    font-size: larger;
     text-align: center;
-    border-top: 5px solid #000000;
-    border-bottom: 5px solid #000000;
-    background-color: #ea76bf;
+    width: 75%;
+    padding-top: 20px;
+    margin:auto;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
 }
+
 section {
     width: 75%;
     margin: auto;
-   
     border-bottom: 5px solid #000000;
-    background-color: #ffd0ee;
-}
-h1 {
+    
     text-align: center;
-    line-height: 2cm;
-    font-family: 'Times New Roman', Times, serif;   
 }
-
-.content {
+#aboutMe {
+    font-size: large;
+    padding-left: 150px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 80%; 
+}
+#myWork {
     padding: 40px;
-    
+    font-size: large;
 }
-
+#contactMe {
+    padding: 40px;
+    font-size: large;
+}
 .portrait  {
-    width: 100px;
-    
+    width:200px;
+    float:left;
+    padding: 40px;
 }
-.project {
-    width: 500px;
+.payroll {
+    width: 350px;
+}
+.blog {
+    width: 300px;
+}
+.readmeGen {
+    width: 300px;
+}
+.taskboard {
+    width: 300px;
 }
